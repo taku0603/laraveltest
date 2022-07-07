@@ -119,3 +119,6 @@ namespaceの間違いでクラスがうまく検出されないエラー。
 対策としてコマンドでモデルファイルを作ることが推奨される。
 Laravelでモデルがnot foundするときの解決方法 - ポッポプログラミング https://poppotennis.com/posts/laravel-model-notfount
 途中から全然反映されなくて萎えてきた
+
+2022/07/07
+MVCパターンについて - Laravel学習帳 https://laraweb.net/surrounding/922/

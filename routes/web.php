@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ArticlesController;
 
 /*
 |--------------------------------------------------------------------------
@@ -74,3 +75,7 @@ Route::resource('/bbs', 'App\Http\Controllers\PostsController', ['only' => ['ind
 // todo こんな書き方もできる
 //use App\Http\Controllers\HelloController;
 //Route::post('newline', [HelloController::class, 'newline']);
+
+// MVCパターンについて - Laravel学習帳 https://laraweb.net/surrounding/922/
+Route::get('articles', 'ArticlesController@index');
+Route::get('articles/{id}', 'ArticlesController@show');
