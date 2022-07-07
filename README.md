@@ -122,3 +122,4 @@ Laravelでモデルがnot foundするときの解決方法 - ポッポプログ�
 
 2022/07/07
 MVCパターンについて - Laravel学習帳 https://laraweb.net/surrounding/922/
+Laravelでmake:bladeでbladeを作成するコマンドの自作 - Qiita https://qiita.com/nkimra/items/f7a8465eca893abcafe8
